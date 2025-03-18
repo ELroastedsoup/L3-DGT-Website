@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+	  <head>
+    <!--Creates the URL name and the size of the website.-->
+        <meta name="description" content="Kingsway School Dance." />
+        <meta name="author" content= "Ella-Rose Sampson" />
+        <meta charset="UTF-8" />
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>Kingsway School Dance.</title>
+    <!--Links HTML to CSS.-->
+        <link rel="stylesheet" href="home.css">
+    <!--Links HTML to Javascript page.-->
+        <link rel="scripts" href="scripts.js">
+        <Script scr="scripts.js"></Script>
+        
+    </head>
+    
+    <body>
+		
+		 <div>
+<!--            <a href="#home" class="active"></a>-->
+            
+    <!--Creates links to different pages(level1, level2, level3.)-->
+        <div id="myLinks" class="topnav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+            <a href="#level1">Level 1</a>
+            <a href="#level2">Level 2</a>
+            <a href="#level3">Level 3</a>
+        </div>
+			 
+		<button class="openbtn" onclick="openNav()">☰</button>
+        
+<!--Javascript to ensure that while the nav bar is not open the links cannot be clicked. Onclick function tells the code that the links will work when clicked.-->
+  <script>
+	  function openNav() {
+		  document.getElementById("myLinks").style.width = "250px";
+	  }
+	  
+	 function closeNav() {
+		  document.getElementById("myLinks").style.width = "0";
+	 }
+				 </script>
+        </div>
+		
+		
+		
+        <!--Inserts the header image (L2 tap dance.)-->
+        <div class = "header">
+        <image src="images/header.jpg.png" alt="Kingsway school dance." style="max-width:100%;height:auto;"width="" height=""/>
+        </div>
+        
+         
+    
+            
+    
+       <!--Create carousel images-->
+              <div class="column.right">
+                    <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+              <!-- Full-width images with number and caption text -->
+              <div class="mySlides fade">
+                <div class="numbertext">1 / 4</div>
+                <img src="images/carouselimage1.JPG" style="width:100%">
+
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 4</div>
+                <img src="images/carouselimage2.JPG" style="width:100%">
+
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                <img src="images/carouselimage3.JPG" style="width:100%">
+
+              </div>
+
+                 <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img src="images/carouselimage4.JPG" style="width:100%">
+
+              </div>
+
+            
+                    </div>
+
+
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            
+            </div>
+                    </div>
+
+</body>
+                           
+<html>
