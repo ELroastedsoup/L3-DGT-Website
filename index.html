@@ -8,96 +8,94 @@
         <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
         <title>Kingsway School Dance.</title>
     <!--Links HTML to CSS.-->
-        <link rel="stylesheet" href="home.css">
-    <!--Links HTML to Javascript page.-->
-        <link rel="scripts" href="scripts.js">
-        <Script scr="scripts.js"></Script>
+        <link rel="stylesheet" href="styles.css">
+		
+    <!--Links HTML to Javascript page. defer makes the website load faster-->
+        <script src="scripts.js"defer></script>
         
     </head>
     
     <body>
-		
-		 <div>
+		<div class="top-container-index">
+
+		 <div style="width: 100%;">
 <!--            <a href="#home" class="active"></a>-->
             
     <!--Creates links to different pages(level1, level2, level3.)-->
         <div id="myLinks" class="topnav">
 			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
-            <a href="#level1">Level 1</a>
-            <a href="#level2">Level 2</a>
-            <a href="#level3">Level 3</a>
+            <a href="level1.html">Level 1</a>
+            <a href="level2.html">Level 2</a>
+            <a href="level3.html">Level 3</a>
         </div>
 			 
 		<button class="openbtn" onclick="openNav()">☰</button>
         
-<!--Javascript to ensure that while the nav bar is not open the links cannot be clicked. Onclick function tells the code that the links will work when clicked.-->
-  <script>
-	  function openNav() {
-		  document.getElementById("myLinks").style.width = "250px";
-	  }
-	  
-	 function closeNav() {
-		  document.getElementById("myLinks").style.width = "0";
-	 }
-				 </script>
+
         </div>
 		
 		
 		
-        <!--Inserts the header image (L2 tap dance.)-->
+<!--        Inserts the header image (L2 tap dance.)-->
         <div class = "header">
-        <image src="images/header.jpg.png" alt="Kingsway school dance." style="max-width:100%;height:auto;"width="" height=""/>
+        <image src="images/header.png" alt="Kingsway school dance."/>
         </div>
         
+			</div>
          
-    
-            
-    
-       <!--Create carousel images-->
-              <div class="column.right">
-                    <!-- Slideshow container -->
-            <div class="slideshow-container">
-
-              <!-- Full-width images with number and caption text -->
-              <div class="mySlides fade">
-                <div class="numbertext">1 / 4</div>
-                <img src="images/carouselimage1.JPG" style="width:100%">
-
-              </div>
-
-              <div class="mySlides fade">
-                <div class="numbertext">2 / 4</div>
-                <img src="images/carouselimage2.JPG" style="width:100%">
-
-              </div>
-
-              <div class="mySlides fade">
-                <div class="numbertext">3 / 4</div>
-                <img src="images/carouselimage3.JPG" style="width:100%">
-
-              </div>
-
-                 <div class="mySlides fade">
-                <div class="numbertext">4 / 4</div>
-                <img src="images/carouselimage4.JPG" style="width:100%">
-
-              </div>
-
-            
-                    </div>
+    	<div class="row">
+			<div class="column left">
+			<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
+			</div>
 
 
 
-            <!-- The dots/circles -->
-            <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-                <span class="dot" onclick="currentSlide(4)"></span>
-            
-            </div>
-                    </div>
+		   <!--Create carousel images-->
+				  <div class="column right">
+						<!-- Slideshow container -->
+				<div class="slideshow-container">
 
+				  <!-- Full-width images with number and caption text -->
+				  <div class="mySlides fade">
+					<div class="numbertext">1 / 4</div>
+					<img src="images/carouselimage1.JPG" style="width:100%">
+
+				  </div>
+
+				  <div class="mySlides fade">
+					<div class="numbertext">2 / 4</div>
+					<img src="images/carouselimage2.JPG" style="width:100%; height: 100%;">
+
+				  </div>
+
+				  <div class="mySlides fade">
+					<div class="numbertext">3 / 4</div>
+					<img src="images/carouselimage3.JPG" style="width:100%">
+
+				  </div>
+
+					 <div class="mySlides fade">
+					<div class="numbertext">4 / 4</div>
+					<img src="images/carouselimage4.JPG" style="width:100%">
+
+				  </div>
+					<!-- The dots/circles -->
+				<div style="text-align:center;">
+					<span class="dot" onclick="currentSlide(1)"></span>
+					<span class="dot" onclick="currentSlide(2)"></span>
+					<span class="dot" onclick="currentSlide(3)"></span>
+					<span class="dot" onclick="currentSlide(4)"></span>
+
+				</div>
+
+
+						</div>
+
+
+
+				
+						</div>
+		</div>
 </body>
                            
 <html>

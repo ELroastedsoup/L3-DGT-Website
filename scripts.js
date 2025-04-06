@@ -1,3 +1,14 @@
+	  function openNav() {
+		  document.getElementById("myLinks").style.width = "250px";
+	  }
+	  
+	 function closeNav() {
+		  document.getElementById("myLinks").style.width = "0";
+	 }
+	
+
+	
+
 let slideIndex = 0;
 		showSlides();
 
@@ -15,6 +26,9 @@ let slideIndex = 0;
 			  }
 			  slides[slideIndex-1].style.display = "block";  
 			  dots[slideIndex-1].className += " active";
-			  setTimeout(showSlides, 3000); // Change image every 2 seconds
+			  setTimeout(showSlides, 4000); // Change image every 4 seconds
 			}
 
+
+
+			
