@@ -1,94 +1,107 @@
 <!doctype html>
-<html>
-	  <head>
-    <!--Creates the URL name and the size of the website.-->
-        <meta name="description" content="Kingsway School Dance." />
-        <meta name="author" content= "Ella-Rose Sampson" />
-        <meta charset="UTF-8" />
-        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
-        <title>Kingsway School Dance.</title>
-    <!--Links HTML to CSS.-->
-        <link rel="stylesheet" href="styles.css">
-		
-    <!--Links HTML to Javascript page. defer makes the website load faster-->
-        <script src="scripts.js"defer></script>
-        
-    </head>
-    
-    <body>
+<html lang="en">
+	<head>
+		<!--Creates the URL name and the size of the website.-->
+		<meta name="description" content="Kingsway School Dance." />
+		<meta name="author" content="Ella-Rose Sampson" />
+		<meta charset="UTF-8" />
+		<meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
+		<!--title of website-->
+		<title>Kingsway School Dance.</title>
+		<!--Links HTML to CSS.-->
+		<link rel="stylesheet" href="styles.css" />
+
+		<!--Links HTML to Javascript page. defer makes the website load faster-->
+		<script src="scripts.js" defer></script>
+	</head>
+
+	<body>
+		<!--creates the main container for the top of the page-->
 		<div class="top-container-level2social">
+			<div style="width: 100%">
+				<!--            <a href="#home" class="active"></a>-->
 
-		 <div style="width: 100%;">
-<!--            <a href="#home" class="active"></a>-->
-            
-    <!--Creates links to different pages(level1, level2, level3.)-->
-        <div id="myLinks" class="topnav">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
-			<a href="index.html">Home</a>
-            <a href="level1.html">Level 1</a>
-			<a href="level2.html">Level 2</a>
-            <a href="level3.html">Level 3</a>
-        </div>
-			 
-		<button class="openbtn" onclick="openNav()">☰</button>
-        
+				<!--Creates links to different pages(level1, level2, level3.)-->
+				<div id="myLinks" class="topnav">
+					<!--creates the close button inside the hamberger menu-->
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+					<!--inserts the links for the different pages-->
+					<a href="index.html">Home</a>
+					<a href="level1.html">Level 1</a>
+					<a href="level2.html">Level 2</a>
+					<a href="level3.html">Level 3</a>
+				</div>
 
-        </div>
-		
-		
-		
-		
-<!--        Inserts the header image (L2 tap dance.)-->
-        <div class = "header">
-        <image src="images/header.png" alt="Kingsway school dance."/>
-        </div>
-			
+				<!--inserts the open button and its icon-->
+				<button class="openbtn" onclick="openNav()">☰</button>
 			</div>
-		
-				<div class="columnleftmain">
-			<h1>Perform an Ethnic or Social Dance to Communicate Understanding of the Style</h1>
-		<p>The standard requires the student to perform a social dance (Hip-Hop). You will be assessed on how clearly your performance demonstrates your understanding of the genre.</p>
+
+			<!--        Inserts the header image (L2 tap dance.)-->
+			<div class="header">
+				<img src="images/header.png" alt="Kingsway school dance." />
+			</div>
 		</div>
-		
-		
+
+		<!--creates the top left column and information about standard-->
+		<div class="columnleftmain">
+			<h1>Perform an Ethnic or Social Dance to Communicate Understanding of the Style</h1>
+			<p>
+				The standard requires the student to perform a social dance (Hip-Hop). You will be assessed on how
+				clearly your performance demonstrates your understanding of the genre.
+			</p>
+		</div>
+
+		<!--achieved information column-->
 		<div class="columnrightmain">
 			<h1>Techniques for Achieved</h1>
-		<p>To gain achieved the student will need to perform a 1–2-minute Hip-Hop dance that communicates the understanding of the style. You may consider:</p>
-						<ul>
-				<li>Appropriate focus on incorporating elements of Hip-Hop culture</li>
-	<br>
-				<li>Energy</li>
-	<br>
-				<li>Attitude</li>
-	
-	
-	</ul>
+			<p>
+				To gain achieved the student will need to perform a 1–2-minute Hip-Hop dance that communicates the
+				understanding of the style. You may consider:
+			</p>
+			<ul>
+				<li style="margin-top: 5%">Appropriate focus on incorporating elements of Hip-Hop culture</li>
+
+				<li style="margin-top: 5%">Energy</li>
+
+				<li style="margin-top: 5%">Attitude</li>
+			</ul>
 		</div>
-		
-		<div class="columnleftmain" style="padding-top: 20%;">
-		<h1>Techniques for Merit</h1>
-			<p>To gain merit the student will need to perform a 1–2-minute Hip-Hop dance that communicates an in depth understanding of the style. You may consider:</p>
-								<ul>
-				<li>Accurate Hip-Hop movements (shapes, posture, timing.)</li>
-	<br>
-				<li>Consistent focus on energy, attitude, and personal expression</li>
-	<br>
-				
-	</ul>
+
+		<!--merit information column-->
+		<div class="columnleftmain" style="padding-top: 20%">
+			<h1>Techniques for Merit</h1>
+			<p>
+				To gain merit the student will need to perform a 1–2-minute Hip-Hop dance that communicates an in depth
+				understanding of the style. You may consider:
+			</p>
+			<ul>
+				<li style="margin-top: 5%">Accurate Hip-Hop movements (shapes, posture, timing.)</li>
+
+				<li style="margin-top: 5%">Consistent focus on energy, attitude, and personal expression</li>
+			</ul>
 		</div>
-		
+
+		<!--excellence information column-->
 		<div class="columnrightmain">
-		<h1>Techniques for Excelence</h1>
-			<p>To gain excellence the student will need to perform a 1–2-minute Hip-Hop dance that communicates a comprehensive understanding of the style. You may consider:</p>
-										<ul>
-				<li>Accurate and appropriate clarity, control, shapes, posture, movements, and timing</li>
-	<br>
-				<li>Consistent energy and performance with added attitude and personal expression</li>
-	<br>
-				
-	</ul>
+			<h1>Techniques for Excelence</h1>
+			<p>
+				To gain excellence the student will need to perform a 1–2-minute Hip-Hop dance that communicates a
+				comprehensive understanding of the style. You may consider:
+			</p>
+			<ul>
+				<li style="margin-top: 5%">
+					Accurate and appropriate clarity, control, shapes, posture, movements, and timing
+				</li>
+
+				<li style="margin-top: 5%">
+					Consistent energy and performance with added attitude and personal expression
+				</li>
+			</ul>
 		</div>
-		<div class="columnrightmainmarking">
+		<!--inserts the marking schedule image and header-->
+		<div class="columnrightmainmarking2social">
 			<h1>Marking Schedule</h1>
-		<img src="images/level2socialmarking.png" style="height:200px;"/>
+			<img src="images/level2socialmarking.png" style="height: 200px" />
 		</div>
+	</body>
+</html>

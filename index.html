@@ -1,102 +1,93 @@
 <!doctype html>
-<html>
-	  <head>
-    <!--Creates the URL name and the size of the website.-->
-        <meta name="description" content="Kingsway School Dance." />
-        <meta name="author" content= "Ella-Rose Sampson" />
-        <meta charset="UTF-8" />
-        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
-        <title>Kingsway School Dance.</title>
-    <!--Links HTML to CSS.-->
-        <link rel="stylesheet" href="styles.css">
-		
-    <!--Links HTML to Javascript page. defer makes the website load faster-->
-        <script src="scripts.js"defer></script>
-        
-    </head>
-    
-    <body>
+<html lang="en">
+	<head>
+		<!--Creates the URL name and the size of the website.-->
+		<meta name="description" content="Kingsway School Dance." />
+		<meta name="author" content="Ella-Rose Sampson" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!--title of website-->
+		<title>Kingsway School Dance.</title>
+		<!--Links HTML to CSS.-->
+		<link rel="stylesheet" href="styles.css" />
+
+		<!--Links HTML to Javascript page. defer makes the website load faster-->
+		<script src="scripts.js" defer></script>
+	</head>
+
+	<body>
+		<!--the main top-container for the index page-->
 		<div class="top-container-index">
-
-		 <div style="width: 100%;">
-<!--            <a href="#home" class="active"></a>-->
-            
-    <!--Creates links to different pages(level1, level2, level3.)-->
-        <div id="myLinks" class="topnav">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
-            <a href="level1.html">Level 1</a>
-            <a href="level2.html">Level 2</a>
-            <a href="level3.html">Level 3</a>
-        </div>
-			 
-		<button class="openbtn" onclick="openNav()">☰</button>
-        
-
-        </div>
-		
-		
-		
-<!--        Inserts the header image (L2 tap dance.)-->
-        <div class = "header">
-        <image src="images/header.png" alt="Kingsway school dance."/>
-        </div>
-        
-			</div>
-         
-    	<div class="row">
-			<div class="column left">
-				<h1>About KingsWay School Dance</h1>
-			<p>Kingsway school dance is an amazing curriculum where students are welcomed to express and perform their emotions through dance. KingsWay school follows NCEA dance guidelines for level 2 and 3 but for level 1 KingsWay uses their own curriculum. NCEA describes dance as “Dance is about learning to communicate through movement and interpret meaning from movement.” In dance we learn and choreograph dances which are performed in the KingsWay schools annual Arts Week. This creates an amazing opportunity for students to work towards something and create a healthy learning environment. On this website there is all the information needed about each standard in level 1, 2 and 3. Navigate the website by using the hamburger menu on the top right of the screen.</p>
-			</div>
-
-
-
-		   <!--Create carousel images-->
-				  <div class="column right">
-						<!-- Slideshow container -->
-				<div class="slideshow-container">
-
-				  <!-- Full-width images with number and caption text -->
-				  <div class="mySlides fade">
-					<div class="numbertext">1 / 4</div>
-					<img src="images/carouselimage1.JPG" style="width:100%">
-
-				  </div>
-
-				  <div class="mySlides fade">
-					<div class="numbertext">2 / 4</div>
-					<img src="images/carouselimage2.JPG" style="width:100%; height: 100%;">
-
-				  </div>
-
-				  <div class="mySlides fade">
-					<div class="numbertext">3 / 4</div>
-					<img src="images/carouselimage3.JPG" style="width:100%">
-
-				  </div>
-
-					 <div class="mySlides fade">
-					<div class="numbertext">4 / 4</div>
-					<img src="images/carouselimage4.JPG" style="width:100%">
-
-				  </div>
-					<!-- The dots/circles -->
-				<div style="text-align:center;">
-					<span class="dot" onclick="currentSlide(1)"></span>
-					<span class="dot" onclick="currentSlide(2)"></span>
-					<span class="dot" onclick="currentSlide(3)"></span>
-					<span class="dot" onclick="currentSlide(4)"></span>
-
+			<div style="width: 100%">
+				<!--Creates links to different pages(level1, level2, level3.)-->
+				<div id="myLinks" class="topnav">
+					<!--addes the close button inside the navigation menu-->
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+					<a href="level1.html">Level 1</a>
+					<a href="level2.html">Level 2</a>
+					<a href="level3.html">Level 3</a>
 				</div>
 
+				<!--hamburger menu open button and symbol-->
+				<button class="openbtn" onclick="openNav()">☰</button>
+			</div>
 
-						</div>
-
-
-
-				
-						</div>
+			<!--Inserts the header image (L2 tap dance.)-->
+			<div class="header">
+				<img src="images/header.png" alt="Kingsway school dance." />
+			</div>
 		</div>
-</body>
-                           
-<html>
+		<!--the row which contains the code for the carousel layout and placement-->
+		<div class="row">
+			<div class="column left">
+				<h1>About KingsWay School Dance</h1>
+				<p>
+					Kingsway school dance is an amazing curriculum where students are welcomed to express and perform
+					their emotions through dance. KingsWay school follows NCEA dance guidelines for level 2 and 3 but
+					for level 1 KingsWay uses their own curriculum. NCEA describes dance as “Dance is about learning to
+					communicate through movement and interpret meaning from movement.” In dance we learn and choreograph
+					dances which are performed in the KingsWay schools annual Arts Week. This creates an amazing
+					opportunity for students to work towards something and create a healthy learning environment. On
+					this website there is all the information needed about each standard in level 1, 2 and 3. Navigate
+					the website by using the hamburger menu on the top right of the screen.
+				</p>
+			</div>
+
+			<!--organises the image carousel into the right column-->
+			<div class="column right">
+				<!-- Slideshow container for the carousel -->
+				<div class="slideshow-container">
+					<!-- Full-width images with number and caption text -->
+					<!--slide 1-->
+					<div class="mySlides fade">
+						<div class="numbertext">1 / 4</div>
+						<img src="images/carouselimage1.JPG" style="width: 100%" />
+					</div>
+
+					<!--slide 2-->
+					<div class="mySlides fade">
+						<div class="numbertext">2 / 4</div>
+						<img src="images/carouselimage2.JPG" style="width: 100%; height: 100%" />
+					</div>
+					<!--slide 3-->
+					<div class="mySlides fade">
+						<div class="numbertext">3 / 4</div>
+						<img src="images/carouselimage3.JPG" style="width: 100%" />
+					</div>
+					<!--slide 4-->
+					<div class="mySlides fade">
+						<div class="numbertext">4 / 4</div>
+						<img src="images/carouselimage4.JPG" style="width: 100%" />
+					</div>
+					<!--the dots/circles which control the carousel navigation-->
+					<div style="text-align: center">
+						<span class="dot" onclick="currentSlide(1)"></span>
+						<span class="dot" onclick="currentSlide(2)"></span>
+						<span class="dot" onclick="currentSlide(3)"></span>
+						<span class="dot" onclick="currentSlide(4)"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,71 +1,114 @@
 <!doctype html>
-<html>
-	  <head>
-    <!--Creates the URL name and the size of the website.-->
-        <meta name="description" content="Kingsway School Dance." />
-        <meta name="author" content= "Ella-Rose Sampson" />
-        <meta charset="UTF-8" />
-        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
-        <title>Kingsway School Dance.</title>
-    <!--Links HTML to CSS.-->
-        <link rel="stylesheet" href="styles.css">
-		
-    <!--Links HTML to Javascript page. defer makes the website load faster-->
-        <script src="scripts.js"defer></script>
-        
-    </head>
-    
-    <body>
+<html lang="en">
+	<head>
+		<!--Creates the URL name and the size of the website.-->
+		<meta name="description" content="Kingsway School Dance." />
+		<meta name="author" content="Ella-Rose Sampson" />
+		<meta charset="UTF-8" />
+		<meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
+		<!--title of website-->
+		<title>Kingsway School Dance.</title>
+		<!--Links HTML to CSS.-->
+		<link rel="stylesheet" href="styles.css" />
+
+		<!--Links HTML to Javascript page. defer makes the website load faster-->
+		<script src="scripts.js" defer></script>
+	</head>
+
+	<body>
+		<!--creates the main container for the top of page-->
 		<div class="top-container-level2rep">
+			<div style="width: 100%">
+				<!--            <a href="#home" class="active"></a>-->
 
-		 <div style="width: 100%;">
-<!--            <a href="#home" class="active"></a>-->
-            
-    <!--Creates links to different pages(level1, level2, level3.)-->
-        <div id="myLinks" class="topnav">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
-			<a href="index.html">Home</a>
-            <a href="level1.html">Level 1</a>
-			<a href="level2.html">Level 2</a>
-            <a href="level3.html">Level 3</a>
-        </div>
-			 
-		<button class="openbtn" onclick="openNav()">☰</button>
-        
+				<!--Creates links to different pages(level1, level2, level3.)-->
+				<div id="myLinks" class="topnav">
+					<!--creates the close button inside the navigation menu-->
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+					<!--inserts the links to the different pages-->
+					<a href="index.html">Home</a>
+					<a href="level1.html">Level 1</a>
+					<a href="level2.html">Level 2</a>
+					<a href="level3.html">Level 3</a>
+				</div>
 
-        </div>
-		
-		
-		
-		
-<!--        Inserts the header image (L2 tap dance.)-->
-        <div class = "header">
-        <image src="images/header.png" alt="Kingsway school dance."/>
-        </div>
-			
+				<!--creates an open button and its icon-->
+				<button class="openbtn" onclick="openNav()">☰</button>
 			</div>
-		
-				<div class="columnleftmain">
-			<h1>Perform a Repertoire of Dance </h1>
-			<p>The standard requires the student to learn and perform a repertoire of three dances from the modern dance genre. The sequences may be performed throughout the year multiple times. You will be assessed on your understanding of the stylistic requirements of the genre.</p>
+
+			<!--        Inserts the header image (L2 tap dance.)-->
+			<div class="header">
+				<img src="images/header.png" alt="Kingsway school dance." />
+			</div>
 		</div>
-		
-		
+
+		<!--creates the top left column with information about standard-->
+		<div class="columnleftmain">
+			<h1>Perform a Repertoire of Dance</h1>
+			<p>
+				The standard requires the student to learn and perform a repertoire of three dances from the modern
+				dance genre. The sequences may be performed throughout the year multiple times. You will be assessed on
+				your understanding of the stylistic requirements of the genre.
+			</p>
+		</div>
+
+		<!--achieved information column-->
 		<div class="columnrightmain">
 			<h1>Techniques for Achieved</h1>
-		<p>>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos</p>
+			<p>
+				To gain achieved it is required that the student perform a repertoire of three contrasting dances. You
+				may consider:
+			</p>
+			<ul>
+				<li style="margin-top: 5%">Reproducing correct movement for all three dances</li>
+
+				<li style="margin-top: 5%">Generally accurate timing</li>
+
+				<li style="margin-top: 5%">Conveys different ideas in all three dances</li>
+			</ul>
 		</div>
-		
-		<div class="columnleftmain" style="padding-top: 20%;">
-		<h1>Techniques for Merit</h1>
-			<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos</p>
+
+		<!--merit information column-->
+		<div class="columnleftmain" style="padding-top: 20%">
+			<h1>Techniques for Merit</h1>
+			<p>
+				To gain merit it is required that the student perform a repertoire of three contrasting dances with
+				understanding of the stylistic requirements. You may consider:
+			</p>
+			<ul>
+				<li style="margin-top: 5%">
+					Reproduces correct movement for all three dances with appropriate posture
+				</li>
+
+				<li style="margin-top: 5%">Accurate timing in each three dances</li>
+
+				<li style="margin-top: 5%">Performs with clear focus (expressions)</li>
+
+				<li style="margin-top: 5%">Conveys different ideas in all three dances</li>
+			</ul>
 		</div>
-		
+
+		<!--excellence information column-->
 		<div class="columnrightmain">
-		<h1>Techniques for Excelence</h1>
-			<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos</p>
+			<h1>Techniques for Excelence</h1>
+			<p>
+				To gain excellence it is required that the student perform a repertoire of three contrasting dances with
+				in-depth understanding of the stylistic requirements. You may consider:
+			</p>
+			<ul>
+				<li style="margin-top: 5%">
+					Reproducing correct movement for all three dances with clarity and contrasting details
+				</li>
+
+				<li style="margin-top: 5%">Demonstrates use of varied dynamics and flow</li>
+
+				<li style="margin-top: 5%">Conveys the emotional content and expressions of each dance</li>
+			</ul>
 		</div>
-		<div class="columnrightmainmarking">
+		<!--inserts the marking schedule and its header-->
+		<div class="columnrightmainmarking2rep">
 			<h1>Marking Schedule</h1>
-		<img src="images/level2repmarking.png" style="height:200px;"/>
+			<img src="images/level2repmarking.png" style="height: 200px" />
 		</div>
+	</body>
+</html>
