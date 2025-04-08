@@ -1,8 +1,8 @@
 /*styling the header/background image/font*/
 body {
 	margin: 0;
-/*	font-family: 29;*/
-	font-size: 21px;
+	font-family: 29;
+	font-size: 25px;
 	background-color: black;
 	color: #f2d785;
 	}
@@ -22,7 +22,33 @@ body {
 	background-repeat: no-repeat;
 	background-color: black;
 }
+.top-container-level1ensemble{
+	background-image: url(images/level1ensemble.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
 
+.top-container-level1sequences{
+	background-image: url(images/level1sequences.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+.top-container-level1elements{
+	background-image: url(images/level1elements.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+.top-container-level1chore{
+	background-image: url(images/level3chore.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
 /*creates top container css for the level2 page. background image, size, color*/
 .top-container-level2{
 	background-image: url(images/level2bg.JPG);
@@ -30,8 +56,8 @@ body {
 	background-repeat: no-repeat;
 	background-color: black;
 }
-.top-container-level2social{
-	background-image: url(images/level2social.JPG);
+.top-container-level2rep{
+	background-image: url(images/level2rep.JPG);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: black;
@@ -209,6 +235,7 @@ body {
 	
     width: 46%;
 	padding: 2%;
+	font-size: 28hv;
 	
 }
 
@@ -350,13 +377,21 @@ body {
 	padding-right: 3%;
 }
 
+
+
 .columnrightmainmarking{
 	text-align: center;
 	width:50%;
-	padding-top:80%;
-
 	padding-left: 25%;
 		
+}
+
+.l1sequencesmarking {
+		
+text-align: center;
+	width:50%;
+	padding-top: 155%;
+	padding-left: 25%;
 }
 /* creates the slideshow container with the width and position */
             .slideshow-container {
@@ -422,24 +457,37 @@ body {
               to {opacity: 1}
             }
 
-/*
-@media screen and (max-width: 760px) {
-	.column123.left, column123.middle, column123.right {
+
+@media screen and (max-width: 600px) {
+	
+	.button-container, .text-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 		width: 100%;
-		padding: 5%;
+	}
+	button, column123 {
+		display: block;
+		width: 100%;
+		text-align: center;
+		padding: 10px 0;
 	}
 	
-	.columnrightmain, .columnleftmain {
-		width: 100%;
-		padding: 5%;
+	
+	.column123 {
+		clear: both;
 	}
 	
-	.columnrightmainmarking {
+	button img {
 		width: 100%;
-		padding-top: 40%;
+		height: auto;
+	}
+	
+	.columnleftbutton, .columnmiddlebutton, .columnrightbutton, .columnbottombutton {
+		padding: 5%;
+		float: none;
 	}
 }
-*/
 
 
 	
