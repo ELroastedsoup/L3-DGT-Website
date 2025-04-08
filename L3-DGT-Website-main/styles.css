@@ -1,0 +1,769 @@
+/*styling the header/background image/font*/
+body {
+	margin: 0;
+	font-family: 29;
+	font-size: 25px;
+	background-color: black;
+	color: #f2d785;
+}
+/*creates top container css for the home page. background image, size, color*/
+.top-container-index {
+	background-image: url(images/headerimage.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+/*creates top container css for the level1 pages and standards pages. background image, size, color*/
+.top-container-level1 {
+	background-image: url(images/level1bg.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+.top-container-level1ensemble {
+	background-image: url(images/level1ensemble.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+.top-container-level1sequences {
+	background-image: url(images/level1sequences.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+.top-container-level1elements {
+	background-image: url(images/level1elements.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+.top-container-level1chore {
+	background-image: url(images/level3chore.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+/*creates top container css for the level2 pages and standard pages. background image, size, color*/
+.top-container-level2 {
+	background-image: url(images/level2bg.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+.top-container-level2rep {
+	background-image: url(images/level2rep.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+.top-container-level2social {
+	background-image: url(images/level2social.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+.top-container-level2theatre {
+	background-image: url(images/level2theatre.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+.top-container-level2chore {
+	background-image: url(images/level3chore.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+/*creates top container css for the level3 page. background image, size, color*/
+.top-container-level3 {
+	background-image: url(images/level3bg.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+/*creates top container css for the level3 duet page. background image, size, color*/
+.top-container-level3duet {
+	background-image: url(images/level3duet.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+/*creates top container css for the level3 group page. background image, size, color*/
+.top-container-level3group {
+	background-image: url(images/level3group.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+/*creates top container css for the level3 rep page. background image, size, color*/
+.top-container-level3rep {
+	background-image: url(images/level3rep.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+.top-container-level3chore {
+	background-image: url(images/level3chore.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+/*styling the header words/image. moving the words center into the page*/
+.header {
+	width: 100%;
+	height: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+/*styling the size of the header words image*/
+.header img {
+	width: 100%;
+}
+
+/* Style the navigation menu */
+.topnav {
+	overflow-x: hidden;
+	position: fixed;
+	width: 0;
+	z-index: 1;
+	height: 250px;
+	top: 0;
+	right: 0;
+	background-color: black;
+	transition: 0.5s;
+	padding-top: 60px;
+}
+
+/*creates the styles for the close button x*/
+.topnav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 30px;
+}
+
+/*creates the styles for the open button the hamburger*/
+.openbtn {
+	font-size: 30px;
+	cursor: pointer;
+	background-color: black;
+	color: #f2d785;
+	padding: 10px 15px;
+	border: none;
+	float: right;
+}
+
+/*creates white hover effect when the mouse is over the button.*/
+.openbtn:hover {
+	background-color: white;
+}
+
+/* Style the navigation menu links*/
+.topnav a {
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	display: block;
+	transition: 0.3s;
+}
+
+/*Style the hamburger background color, display, position*/
+.topnav a.icon {
+	background: black;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+/*Style the active link*/
+.active {
+	background-color: #04aa6d;
+	color: black;
+}
+
+/*Create two columns that float next to eachother*/
+.column {
+	float: left;
+}
+
+/* creates a row to keep the carousel image contained to one side of page*/
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/*Create size,font size and color, height, padding of each column on the home page. right and left*/
+.left {
+	width: 46%;
+	padding: 2%;
+	font-size: 28hv;
+}
+
+.right {
+	width: 50%;
+	text-align: right;
+	font-size: 25px;
+	height: 57vh;
+	padding-top: 2%;
+}
+
+/*creates styling for the column left image button that will be used on level1,2,3 pages. border, padding, cursor*/
+.columnleftbutton {
+	border: none;
+	padding: 0;
+	background-color: transparent;
+	cursor: pointer;
+	padding-top: 10%;
+	padding-left: 2%;
+	transition: transform 0.2s ease-in-out;
+}
+.columnleftbutton:hover {
+	transform: scale(1.1);
+}
+
+/*creates styling for the column middle image button that will be used on level1,2,3 pages. border, padding, cursor*/
+.columnmiddlebutton {
+	border: none;
+	padding: 0;
+	padding-top: 10%;
+	background-color: transparent;
+	cursor: pointer;
+	padding-left: 7%;
+	align-items: center;
+	transition: transform 0.2s ease-in-out;
+}
+
+/*styles the time of the hover effect*/
+.columnmiddlebutton:hover {
+	transform: scale(1.1);
+}
+
+/*creates styling for the column right image button that will be used on level1,2,3 pages. border, padding, cursor*/
+.columnrightbutton {
+	border: none;
+	padding: 0;
+	background-color: transparent;
+	cursor: pointer;
+	padding-right: 2%;
+	padding-top: 10%;
+	float: right;
+	transition: 0.3s ease-in-out;
+}
+
+/*styles the time of the hover effect*/
+.columnrightbutton:hover {
+	transform: scale(1.1);
+}
+
+.columnbottombutton {
+	border: none;
+	padding: 0;
+	background-color: transparent;
+	cursor: pointer;
+	padding-right: 7%;
+	float: right;
+	transition: 0.3s ease-in-out;
+}
+
+/*styles the time of the hover effect*/
+.columnbottombutton:hover {
+	transform: scale(1.1);
+}
+
+/*creates three columns equal columns that will be used on the index pages of level1,2,3. left, middle, right, bottom. styles the width and padding*/
+.column123.left {
+	font: left;
+	text-align: center;
+	width: 25%;
+	padding: 2%;
+	padding-top: 0%;
+}
+
+.column123.middle {
+	text-align: center;
+	width: 30%;
+	margin-left: 35%;
+	padding-top: 0%;
+}
+
+.column123.right {
+	float: right;
+	text-align: center;
+	width: 25%;
+	padding: 2%;
+	padding-top: 1%;
+}
+
+.column123.bottom {
+	text-align: center;
+	width: 30%;
+	margin-left: 35%;
+	padding-top: 20%;
+}
+
+/*styles the image for the outline*/
+.column123.leftimg {
+	padding-top: 10%;
+	float: left;
+	width: 60%;
+	text-align: center;
+}
+
+/*further styles the image and seperates it from the class and just the image*/
+.column123.leftimg img {
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+/*styles the text information next to the course outline image.*/
+.column123.rightinfo {
+	float: right;
+	text-align: center;
+	width: 35%;
+	padding-right: 2%;
+	display: flex;
+	padding-top: 10%;
+}
+
+/*styles the columns for the standards pages. it also styles the images at bottom of each page*/
+.columnleftmain {
+	float: left;
+	text-align: center;
+	width: 35%;
+	padding-left: 3%;
+}
+
+.columnrightmain {
+	float: right;
+	text-align: center;
+	width: 35%;
+	padding-top: 20%;
+	padding-right: 3%;
+}
+
+.columnrightmainmarking {
+	text-align: center;
+	width: 50%;
+	padding-left: 25%;
+}
+
+.columnrightmainmarking1chore {
+	text-align: center;
+	width: 50%;
+	padding-top: 160%;
+	padding-left: 25%;
+}
+
+.columnrightmainmarking1elements {
+	text-align: center;
+	width: 50%;
+	padding-top: 115%;
+	padding-left: 25%;
+}
+
+.columnrightmainmarking1ensemble {
+	text-align: center;
+	width: 50%;
+	padding-top: 170%;
+	padding-left: 25%;
+}
+.l1sequencesmarking {
+	text-align: center;
+	width: 50%;
+	padding-top: 155%;
+	padding-left: 25%;
+}
+
+.columnrightmainmarking2chore {
+	text-align: center;
+	width: 50%;
+	padding-top: 110%;
+	padding-left: 25%;
+}
+
+.columnrightmainmarking2rep {
+	text-align: center;
+	width: 50%;
+	padding-top: 95%;
+	padding-left: 25%;
+}
+
+.columnrightmainmarking2social {
+	text-align: center;
+	width: 50%;
+	padding-top: 95%;
+	padding-left: 25%;
+}
+
+.columnrightmainmarking2theatre {
+	text-align: center;
+	width: 50%;
+	padding-top: 105%;
+	padding-left: 25%;
+}
+
+.columnrightmainmarking3chore {
+	text-align: center;
+	width: 50%;
+	padding-top: 105%;
+	padding-left: 25%;
+}
+
+.columnrightmainmarking3duet {
+	text-align: center;
+	width: 50%;
+	padding-top: 105%;
+	padding-left: 25%;
+}
+
+.columnrightmainmarking3group {
+	text-align: center;
+	width: 50%;
+	padding-top: 105%;
+	padding-left: 25%;
+}
+
+.columnrightmainmarking3rep {
+	text-align: center;
+	width: 50%;
+	padding-top: 95%;
+	padding-left: 25%;
+}
+/* creates the slideshow container with the width and position */
+.slideshow-container {
+	width: 90%;
+	padding-right: 3%;
+	position: relative;
+	margin: auto;
+	float: right;
+}
+
+/* Hide the images by default */
+.mySlides {
+	display: none;
+}
+
+/* creates the styles for the caption text */
+.text {
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
+
+/* creates the styles for the numbers on the bottom (1/3 etc) */
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+/* creates the dots on the bottom that are clickable and have a transition effect */
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+	background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@keyframes fade {
+	from {
+		opacity: 0.4;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+/*creates the response styling for the website when in mobile view*/
+@media (max-width: 768px) {
+	/*creates styling for the body parts of the website including font size*/
+	html,
+	body {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: 100%;
+	}
+	body {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+		flex-wrap: nowrap;
+		font-size: 18px;
+	}
+
+	body > * {
+		flex: 0 0 auto;
+	}
+
+	/*creates styling for the buttons*/
+	.columnleftbutton,
+	.columnmiddlebutton,
+	.columnrightbutton,
+	.columnbottombutton {
+		float: none;
+		display: block;
+		margin: 10px 0;
+		text-align: center;
+		width: auto;
+		padding: 0;
+		background: transparent;
+		border: none;
+		cursor: pointer;
+		order: initial;
+		line-height: normal;
+	}
+
+	/*creates styling for the headers under the buttons*/
+	.column123.left,
+	.column123.middle,
+	.column123.right,
+	.column123.bottom {
+		margin: 0;
+		padding: 10px 0;
+		text-align: center;
+		width: 100%;
+		order: initial;
+	}
+
+	/* Make images inside buttons responsive */
+	.columnleftbutton img,
+	.columnmiddlebutton img,
+	.columnrightbutton img,
+	.columnbottombutton img {
+		width: 100%;
+		height: auto;
+		max-width: 400px;
+		display: block;
+		margin: 0 auto;
+	}
+
+	/*styles the course outline image*/
+	.column123.leftimg img {
+		order: 9;
+		width: 100%;
+		max-width: 500px;
+		height: auto;
+		display: block;
+		margin: 0;
+		text-align: center;
+		padding: 20px 0;
+	}
+
+	/*styles the information next to the course outline image*/
+	.column123.rightinfo {
+		order: 10;
+		width: 100%;
+		text-align: center;
+		padding: 20px 0;
+		display: block; /* remove flex, unless you specifically want flex inside */
+	}
+
+	/*styles the column left and right for the standards page*/
+	.column.left,
+	.column.right {
+		float: none;
+		width: 100%;
+		display: block;
+		text-align: center;
+		padding: 10px 0;
+	}
+	/*styles the slideshow container to go underneath the information and be larger when in mobile view*/
+	.slideshow-container img {
+		width: 100%;
+		height: auto;
+	}
+
+	/*styles all the columns for the images and text in the individual standard pages*/
+	.columnleftmain {
+		float: none;
+		width: 100%;
+		text-align: center;
+		padding: 10px 0;
+		margin-bottom: 20px;
+	}
+
+	.columnrightmain,
+	.columnleftmain {
+		float: none;
+		width: 100%;
+		text-align: center;
+		padding: 10px 0;
+		margin-bottom: 20px;
+	}
+
+	.columnrightmainmarking2social {
+		float: none;
+		width: 100%;
+		text-align: center;
+		padding: 20px 0;
+	}
+
+	.columnrightmainmarking2social img {
+		width: 100%;
+		max-width: 400px;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+	}
+	.columnrightmainmarking2theatre img {
+		width: 100%;
+		max-width: 400px;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+	}
+	.columnrightmainmarking2rep img {
+		width: 100%;
+		max-width: 400px;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+	}
+	.columnrightmainmarking2chore img {
+		width: 100%;
+		max-width: 400px;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+	}
+	.columnrightmainmarking1chore img {
+		width: 100%;
+		max-width: 400px;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+	}
+	.columnrightmainmarking1elements img {
+		width: 100%;
+		max-width: 400px;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+	}
+	.columnrightmainmarking1ensemble img {
+		width: 100%;
+		max-width: 700px;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+	}
+	.l1sequencesmarking img {
+		width: 100%;
+		max-width: 400px;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+	}
+	.columnrightmainmarking3chore img {
+		width: 100%;
+		max-width: 400px;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+	}
+	.columnrightmainmarking3rep img {
+		width: 100%;
+		max-width: 400px;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+	}
+	.columnrightmainmarking3group img {
+		width: 100%;
+		max-width: 400px;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+	}
+	.columnrightmainmarking3duet img {
+		width: 100%;
+		max-width: 400px;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+	}
+	/*creates an order in which things are to appear when in mobile view*/
+	.columnleftbutton {
+		order: 1;
+	}
+	.column123.left {
+		order: 2;
+	}
+
+	.columnmiddlebutton {
+		order: 3;
+	}
+	.column123.middle {
+		order: 4;
+	}
+
+	.columnrightbutton {
+		order: 5;
+	}
+	.column123.right {
+		order: 6;
+	}
+
+	.columnbottombutton {
+		order: 7;
+	}
+	.column123.bottom {
+		order: 8;
+	}
+
+	.column123.leftimg {
+		order: 9;
+	}
+	.column123.rightinfo {
+		order: 10;
+	}
+}

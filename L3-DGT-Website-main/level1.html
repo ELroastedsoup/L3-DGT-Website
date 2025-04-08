@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!--Creates the URL name and the size of the website.-->
+		<meta name="description" content="Kingsway School Dance." />
+		<meta name="author" content="Ella-Rose Sampson" />
+		<meta charset="UTF-8" />
+		<meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
+		<!--title of website-->
+		<title>Kingsway School Dance.</title>
+		<!--Links HTML to CSS.-->
+		<link rel="stylesheet" href="styles.css" />
+
+		<!--Links HTML to Javascript page. defer makes the website load faster-->
+		<script src="scripts.js" defer></script>
+	</head>
+
+	<body>
+		<!--the main container for the top of the screen-->
+		<div class="top-container-level1">
+			<div style="width: 100%">
+				<!--Creates links to different pages(level1, level2, level3.)-->
+				<div id="myLinks" class="topnav">
+					<!--creates close button inside the navigation menu-->
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+					<!--navigation links to the other pages-->
+					<a href="index.html">Home</a>
+					<a href="level2.html">Level 2</a>
+					<a href="level3.html">Level 3</a>
+				</div>
+
+				<!--the open button and hamberger menu icon-->
+				<button class="openbtn" onclick="openNav()">☰</button>
+			</div>
+
+			<!--        Inserts the header image (L2 tap dance.)-->
+			<div class="header">
+				<img src="images/header.png" alt="Kingsway school dance." />
+			</div>
+		</div>
+
+		<!--		<div class="column123.left">-->
+
+		<!--creates button out of image that links to the ensemble page-->
+		<button class="columnleftbutton">
+			<a href="level1emsemble.html">
+				<img src="images/level1ensemble.JPG" style="height: 300px" alt="image of dancers in pink costumes"/>
+			</a>
+		</button>
+
+		<!--creates button out of image that links to the sequences page -->
+		<button class="columnmiddlebutton">
+			<a href="level1sequences.html">
+				<img src="images/level1sequences.JPG" style="height: 300px" alt="image of dancers" />
+			</a>
+		</button>
+
+		<!--creates button out of image that links to the elements page-->
+		<button class="columnrightbutton">
+			<a href="level1elements.html">
+				<img src="images/level1elements.JPG" style="height: 300px" alt="image of dancers" />
+			</a>
+		</button>
+
+		<!--creates text that will go underneath each button-->
+		<div class="column123 right">
+			<p>Demonstrate Understanding of the Elements of Dance</p>
+		</div>
+
+		<div class="column123 middle">
+			<p>Perform Dance Sequences</p>
+		</div>
+
+		<div class="column123 left">
+			<p>Demonstrate Ensemble Skills</p>
+		</div>
+
+		<!--creates button out of image that links to choreography page-->
+		<button class="columnbottombutton">
+			<a href="level1chore.html">
+				<img src="images/level3chore.JPG" style="height: 300px" alt="image of dancers in green dresses"/>
+			</a>
+		</button>
+
+		<!--creates text that will go underneath each button-->
+		<div class="column123 bottom">
+			<p>Compose Dance Sequences</p>
+		</div>
+
+		<!--inserts the year outline underneath buttons and next to the right column-->
+
+		<div class="column123 leftimg">
+			<img src="images/level1outline.png" style="height: 350px" alt="image of year outline"/>
+		</div>
+
+		<!--inserts the information that sits next to the image-->
+		<div class="column123 rightinfo">
+			<p>
+				Level 1 dance at KingsWay school does not follow the NCEA curriculum but its own curriculum. There are 4
+				standards in this curriculum, compose dance sequences for given briefs, perform dance sequences,
+				demonstrate ensemble skills in a dance, and lastly, demonstrate understanding of the elements of dance.
+				On this page you will find information into each standard and what is required to gain achieved, merit
+				and excellence.
+			</p>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!--Creates the URL name and the size of the website.-->
+		<meta name="description" content="Kingsway School Dance." />
+		<meta name="author" content="Ella-Rose Sampson" />
+		<meta charset="UTF-8" />
+		<meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
+		<!--title of the website-->
+		<title>Kingsway School Dance.</title>
+		<!--Links HTML to CSS.-->
+		<link rel="stylesheet" href="styles.css" />
+
+		<!--Links HTML to Javascript page. defer makes the website load faster-->
+		<script src="scripts.js" defer></script>
+	</head>
+
+	<body>
+		<!--creates the main container of the top of the page-->
+		<div class="top-container-level1elements">
+			<div style="width: 100%">
+				<!--            <a href="#home" class="active"></a>-->
+
+				<!--Creates links to different pages(level1, level2, level3.)-->
+				<div id="myLinks" class="topnav">
+					<!--creates the close button inside the navigation menu-->
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+					<!--creates links to the other pages-->
+					<a href="index.html">Home</a>
+					<a href="level1.html">Level 1</a>
+					<a href="level2.html">Level 2</a>
+					<a href="level3.html">Level 3</a>
+				</div>
+
+				<!--creates the open button and the hamberger icon-->
+				<button class="openbtn" onclick="openNav()">☰</button>
+			</div>
+
+			<!--Inserts the header image (L2 tap dance.)-->
+			<div class="header">
+				<img src="images/header.png" alt="Kingsway school dance." />
+			</div>
+		</div>
+
+		<!--the top left column information-->
+		<div class="columnleftmain">
+			<h1>Demonstrate Understanding of the Elements of Dance</h1>
+			<p>
+				This standard requires the student to complete a series of activities that demonstrate the student's
+				understanding of the elements of dance. You could do this with a practical demonstration, posters or
+				images, bullet point notes, etc. Complete the activities with a partner or group and keep a record of
+				your contribution. All activities will look at body, space, time, energy, relationships.
+			</p>
+		</div>
+
+		<!--the achieved column information-->
+		<div class="columnrightmain" style="padding-top: 40%">
+			<h1>Techniques for Achieved</h1>
+			<p>
+				To gain achieved the student must complete at least five activities and identify and explore a range of
+				dance elements.
+			</p>
+		</div>
+
+		<!--the merit column information-->
+		<div class="columnleftmain" style="padding-top: 40%">
+			<h1>Techniques for Merit</h1>
+			<p>
+				To gain merit the student must complete at least five activities and identify and explore a range of
+				dance elements. The student must also explore uses of the elements and apply them in contexts and
+				reflect on the use of the element.
+			</p>
+		</div>
+
+		<!--the excellence column information-->
+		<div class="columnrightmain" style="padding-top: 40%">
+			<h1>Techniques for Excelence</h1>
+			<p>
+				To gain Excellence the student must complete at least five activities and identify and explore a range
+				of dance elements. The student must explore the range of uses of the elements and apply them to a range
+				of contexts and evaluate their effect/purpose.
+			</p>
+		</div>
+		<!--inserts the marking schedule images and the header-->
+		<div class="columnrightmainmarking1elements">
+			<h1>Marking Schedule</h1>
+			<img src="images/level1elementsmarking.png" style="height: 200px" />
+		</div>
+	</body>
+</html>
